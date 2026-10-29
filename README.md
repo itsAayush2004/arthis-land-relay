@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛰️ ArthisLand Relay
+# 🛰️ ARTHIS.land Relay
 
 **A lightweight, zero-dependency real-time relay server for [ARTHIS.land](https://arthis.land) — “The Wall.”**
 
@@ -17,7 +17,7 @@ Rooms of 2–4 players, plain **TCP** _and_ **WebSocket** on a single port, writ
 
 ## Overview
 
-`arthisland-relay` is the multiplayer backend behind **ARTHIS.land**, the Unity “vertical city” experience. It relays game state between players in a room without any game logic of its own — clients stay authoritative, the server just moves messages fast and cleanly.
+`arthis-land-relay` is the multiplayer backend behind **ARTHIS.land**, the Unity “vertical city” experience. It relays game state between players in a room without any game logic of its own — clients stay authoritative, the server just moves messages fast and cleanly.
 
 It speaks two transports on the **same port** and auto-detects which one a client is using:
 
@@ -83,7 +83,7 @@ The server binds `0.0.0.0` and honors the `PORT` environment variable, so it run
 
 | Platform  | How                                                          |
 | --------- | ----------------------------------------------------------- |
-| **Docker**| `docker build -t arthisland-relay . && docker run -p 7777:7777 arthisland-relay` |
+| **Docker**| `docker build -t arthis-land-relay . && docker run -p 7777:7777 arthis-land-relay` |
 | **Railway**| Start command: `python relay_server.py` (`PORT` auto-injected) |
 | **Render**| Start command: `python relay_server.py --port $PORT`        |
 | **Fly.io**| `fly launch && fly deploy`                                   |
@@ -118,7 +118,7 @@ Each connection runs on its own thread. A `Room` tracks its players behind a loc
 ## Project layout
 
 ```text
-arthisland-relay/
+arthis-land-relay/
 ├── relay_server.py    # the entire server (stdlib only)
 ├── Dockerfile         # python:3.11-slim image
 ├── Procfile           # web: python relay_server.py --port $PORT
