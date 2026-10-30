@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/banner.svg" alt="Animated banner: four players join a room and their packets pass through the relay, which broadcasts them to the others over TCP and WebSocket." width="100%"></p>
+
 <div align="center">
 
 # 🛰️ ARTHIS.land Relay
