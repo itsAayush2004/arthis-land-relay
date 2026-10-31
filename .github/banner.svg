@@ -1,87 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t d"><title id="t">Arthis.Land Relay</title><desc id="d">Animated banner: four players join a room and their packets pass through the relay, which broadcasts them to the others over TCP and WebSocket.</desc><style>@font-face{font-family:AC;font-weight:900;src:url(data:font/woff2;base64,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) format("woff2")}
-@font-face{font-family:GM;font-weight:500;src:url(data:font/woff2;base64,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) format("woff2")}
-.ac{font-family:AC,"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-weight:900;fill:#F3F1EC}
-.gm{font-family:GM,ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:500}
-.lbl{font-size:15px;letter-spacing:3px;fill:#F3F1EC;fill-opacity:.62}
-.tag{font-size:19px;fill:#F3F1EC;fill-opacity:.78}
-.foot{font-size:15px;fill:#F3F1EC;fill-opacity:.42}
-.in{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
-@keyframes rise{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:none}}
-.fb{transform-box:fill-box;transform-origin:center}
-.fl{transform-box:fill-box;transform-origin:left center}
-.fbt{transform-box:fill-box;transform-origin:center bottom}
-@keyframes ln0{0%,3%{opacity:0}7%,93%{opacity:1}99%,100%{opacity:0}}
-.ln0{animation:ln0 8s linear infinite both}
-@keyframes ln1{0%,9%{opacity:0}13%,93%{opacity:1}99%,100%{opacity:0}}
-.ln1{animation:ln1 8s linear infinite both}
-@keyframes ln2{0%,15%{opacity:0}19%,93%{opacity:1}99%,100%{opacity:0}}
-.ln2{animation:ln2 8s linear infinite both}
-@keyframes ln3{0%,21%{opacity:0}25%,93%{opacity:1}99%,100%{opacity:0}}
-.ln3{animation:ln3 8s linear infinite both}
-@keyframes pulse{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(1.9)}}.pulse{animation:pulse 2.4s ease-out infinite both}
-@keyframes pl0{0%,0%{opacity:0;transform:scale(.6)}4%,93%{opacity:1;transform:none}99%,100%{opacity:0;transform:scale(.6)}}
-.pl0{animation:pl0 8s cubic-bezier(.3,1.5,.5,1) infinite both}
-@keyframes pl1{0%,6%{opacity:0;transform:scale(.6)}10%,93%{opacity:1;transform:none}99%,100%{opacity:0;transform:scale(.6)}}
-.pl1{animation:pl1 8s cubic-bezier(.3,1.5,.5,1) infinite both}
-@keyframes pl2{0%,12%{opacity:0;transform:scale(.6)}16%,93%{opacity:1;transform:none}99%,100%{opacity:0;transform:scale(.6)}}
-.pl2{animation:pl2 8s cubic-bezier(.3,1.5,.5,1) infinite both}
-@keyframes pl3{0%,18%{opacity:0;transform:scale(.6)}22%,93%{opacity:1;transform:none}99%,100%{opacity:0;transform:scale(.6)}}
-.pl3{animation:pl3 8s cubic-bezier(.3,1.5,.5,1) infinite both}
-@keyframes pk0{0%{opacity:0;transform:translate(-186px,-108px)}30%{opacity:0;transform:translate(-186px,-108px)}31%{opacity:1;transform:translate(-186px,-108px)}39%{opacity:1;transform:none}40%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk0{animation:pk0 8s cubic-bezier(.5,0,.5,1) infinite both}
-@keyframes pk1{0%{opacity:0;transform:translate(-186px,108px)}41%{opacity:0;transform:translate(-186px,108px)}42%{opacity:1;transform:translate(-186px,108px)}51%{opacity:1;transform:none}52%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk1{animation:pk1 8s cubic-bezier(.5,0,.5,1) infinite both}
-@keyframes pk2{0%{opacity:0;transform:translate(186px,-108px)}41%{opacity:0;transform:translate(186px,-108px)}42%{opacity:1;transform:translate(186px,-108px)}51%{opacity:1;transform:none}52%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk2{animation:pk2 8s cubic-bezier(.5,0,.5,1) infinite both}
-@keyframes pk3{0%{opacity:0;transform:translate(-186px,-108px)}41%{opacity:0;transform:translate(-186px,-108px)}42%{opacity:1;transform:translate(-186px,-108px)}51%{opacity:1;transform:none}52%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk3{animation:pk3 8s cubic-bezier(.5,0,.5,1) infinite both}
-@keyframes pk4{0%{opacity:0;transform:translate(186px,108px)}62%{opacity:0;transform:translate(186px,108px)}63%{opacity:1;transform:translate(186px,108px)}71%{opacity:1;transform:none}72%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk4{animation:pk4 8s cubic-bezier(.5,0,.5,1) infinite both}
-@keyframes pk5{0%{opacity:0;transform:translate(186px,108px)}73%{opacity:0;transform:translate(186px,108px)}74%{opacity:1;transform:translate(186px,108px)}83%{opacity:1;transform:none}84%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk5{animation:pk5 8s cubic-bezier(.5,0,.5,1) infinite both}
-@keyframes pk6{0%{opacity:0;transform:translate(-186px,108px)}73%{opacity:0;transform:translate(-186px,108px)}74%{opacity:1;transform:translate(-186px,108px)}83%{opacity:1;transform:none}84%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk6{animation:pk6 8s cubic-bezier(.5,0,.5,1) infinite both}
-@keyframes pk7{0%{opacity:0;transform:translate(186px,-108px)}73%{opacity:0;transform:translate(186px,-108px)}74%{opacity:1;transform:translate(186px,-108px)}83%{opacity:1;transform:none}84%{opacity:0;transform:none}100%{opacity:0;transform:none}}
-.pk7{animation:pk7 8s cubic-bezier(.5,0,.5,1) infinite both}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs>
-<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#F3F1EC" fill-opacity=".07"/></pattern>
-<clipPath id="frame"><rect width="1200" height="420" rx="20"/></clipPath>
-</defs>
-<g clip-path="url(#frame)">
-<rect width="1200" height="420" fill="#0C0C0D"/>
-<rect width="1200" height="420" fill="url(#dots)"/>
-<rect x="580" y="48" width="1" height="324" fill="#F3F1EC" fill-opacity=".08"/>
-<g class="in" style="animation-delay:.05s"><rect x="64" y="66" width="14" height="14" fill="#F23A1D"/><text x="90" y="79" class="gm lbl">PYTHON STDLIB · MULTIPLAYER</text></g>
-<text x="60" y="158" class="ac in" font-size="78" style="animation-delay:0.12s">ARTHIS.LAND</text>
-<text x="60" y="227" class="ac in" font-size="78" style="animation-delay:0.22s">RELAY</text>
-<text x="64" y="275" class="gm tag in" style="animation-delay:0.35s">Zero-dependency relay: TCP and WebSocket on</text>
-<text x="64" y="304" class="gm tag in" style="animation-delay:0.41s">one port, 2-4 players per room.</text>
-<g class="in" style="animation-delay:.55s"><rect x="64" y="366" width="28" height="3" fill="#F23A1D"/><text x="104" y="372" class="gm foot">github.com/itsAayush2004/arthis-land-relay</text></g>
-<g class="scene">
-<line x1="694" y1="106" x2="880" y2="214" stroke="#F3F1EC" stroke-opacity=".4" stroke-width="2" stroke-dasharray="3 6" class="ln0"/>
-<g class="ln0"><rect x="765.0" y="148.0" width="44" height="22" rx="11" fill="#0C0C0D" stroke="#F3F1EC" stroke-opacity=".25"/><text x="787.0" y="164.0" text-anchor="middle" class="gm" font-size="12" fill="#F3F1EC" fill-opacity=".7">TCP</text></g>
-<line x1="1066" y1="106" x2="880" y2="214" stroke="#F3F1EC" stroke-opacity=".4" stroke-width="2" stroke-dasharray="3 6" class="ln1"/>
-<g class="ln1"><rect x="951.0" y="148.0" width="44" height="22" rx="11" fill="#0C0C0D" stroke="#F3F1EC" stroke-opacity=".25"/><text x="973.0" y="164.0" text-anchor="middle" class="gm" font-size="12" fill="#F3F1EC" fill-opacity=".7">WS</text></g>
-<line x1="694" y1="322" x2="880" y2="214" stroke="#F3F1EC" stroke-opacity=".4" stroke-width="2" stroke-dasharray="3 6" class="ln2"/>
-<g class="ln2"><rect x="765.0" y="256.0" width="44" height="22" rx="11" fill="#0C0C0D" stroke="#F3F1EC" stroke-opacity=".25"/><text x="787.0" y="272.0" text-anchor="middle" class="gm" font-size="12" fill="#F3F1EC" fill-opacity=".7">WS</text></g>
-<line x1="1066" y1="322" x2="880" y2="214" stroke="#F3F1EC" stroke-opacity=".4" stroke-width="2" stroke-dasharray="3 6" class="ln3"/>
-<g class="ln3"><rect x="951.0" y="256.0" width="44" height="22" rx="11" fill="#0C0C0D" stroke="#F3F1EC" stroke-opacity=".25"/><text x="973.0" y="272.0" text-anchor="middle" class="gm" font-size="12" fill="#F3F1EC" fill-opacity=".7">TCP</text></g>
-<circle cx="880" cy="214" r="58" fill="none" stroke="#F23A1D" stroke-width="2" class="fb pulse" style="animation-delay:0.0s"/>
-<circle cx="880" cy="214" r="58" fill="none" stroke="#F23A1D" stroke-width="2" class="fb pulse" style="animation-delay:1.2s"/>
-<g class="pl0 fb"><rect x="656" y="76" width="76" height="60" rx="14" fill="#232326" stroke="#F3F1EC" stroke-opacity=".35" stroke-width="1.5"/><text x="694" y="116" text-anchor="middle" class="ac" font-size="30">P1</text></g>
-<g class="pl1 fb"><rect x="1028" y="76" width="76" height="60" rx="14" fill="#232326" stroke="#F3F1EC" stroke-opacity=".35" stroke-width="1.5"/><text x="1066" y="116" text-anchor="middle" class="ac" font-size="30">P2</text></g>
-<g class="pl2 fb"><rect x="656" y="292" width="76" height="60" rx="14" fill="#232326" stroke="#F3F1EC" stroke-opacity=".35" stroke-width="1.5"/><text x="694" y="332" text-anchor="middle" class="ac" font-size="30">P3</text></g>
-<g class="pl3 fb"><rect x="1028" y="292" width="76" height="60" rx="14" fill="#232326" stroke="#F3F1EC" stroke-opacity=".35" stroke-width="1.5"/><text x="1066" y="332" text-anchor="middle" class="ac" font-size="30">P4</text></g>
-<circle cx="880" cy="214" r="7" fill="#F3F1EC" class="pk0" opacity="0"/>
-<circle cx="1066" cy="106" r="7" fill="#F23A1D" class="pk1" opacity="0"/>
-<circle cx="694" cy="322" r="7" fill="#F23A1D" class="pk2" opacity="0"/>
-<circle cx="1066" cy="322" r="7" fill="#F23A1D" class="pk3" opacity="0"/>
-<circle cx="880" cy="214" r="7" fill="#F3F1EC" class="pk4" opacity="0"/>
-<circle cx="694" cy="106" r="7" fill="#F23A1D" class="pk5" opacity="0"/>
-<circle cx="1066" cy="106" r="7" fill="#F23A1D" class="pk6" opacity="0"/>
-<circle cx="694" cy="322" r="7" fill="#F23A1D" class="pk7" opacity="0"/>
-<polygon points="932.0,244.0 880.0,274.0 828.0,244.0 828.0,184.0 880.0,154.0 932.0,184.0" fill="#F23A1D"/>
-<text x="880" y="223" text-anchor="middle" class="ac" font-size="28" style="fill:#0C0C0D">RELAY</text>
-<text x="880" y="392" text-anchor="middle" class="gm" font-size="13" letter-spacing="2" fill="#F3F1EC" fill-opacity=".5">ROOM 07 · 4 / 4 PLAYERS · ONE PORT</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="arthis-land-relay: four players connect over TCP and WebSocket to one relay room">
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}.cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
+<defs><clipPath id="c"><rect width="1200" height="420" rx="24"/></clipPath></defs>
+<g clip-path="url(#c)">
+
+<rect width="1200" height="420" fill="#070B08"/>
+<rect x="0" y="0" width="1200" height="44" fill="#0D1610"/>
+<circle cx="30" cy="22" r="7" fill="#2B4433"/><circle cx="54" cy="22" r="7" fill="#2B4433"/><circle cx="78" cy="22" r="7" fill="#2B4433"/>
+<text x="104" y="27" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-size="15" fill="#6F9A7C">relay@arthis.land:~</text>
+<text x="56" y="106" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-size="18" fill="#6F9A7C">$ python relay_server.py --port 7777</text>
+<text x="56" y="176" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-weight="700" font-size="60" fill="#39F07F">arthis-land-relay<tspan class="cur">_</tspan></text>
+<text x="56" y="222" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-size="20" fill="#CFE8D6">TCP + WebSocket on one port. Pure Python stdlib.</text>
+<g font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-size="15" fill="#CFE8D6">
+<rect x="56" y="262" width="118" height="34" rx="4" fill="none" stroke="#2E5A3D"/><text x="70" y="284">deps: 0</text>
+<rect x="186" y="262" width="198" height="34" rx="4" fill="none" stroke="#2E5A3D"/><text x="200" y="284">players/room: 2-4</text>
+<rect x="396" y="262" width="174" height="34" rx="4" fill="none" stroke="#2E5A3D"/><text x="410" y="284">room code: 4 digits</text>
 </g>
-</g></svg>
+<g font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-size="14" fill="#CFE8D6">
+<rect x="700" y="96" width="150" height="40" rx="6" fill="#0D1610" stroke="#2E5A3D"/><text x="716" y="121">P1 · unity tcp</text>
+<rect x="700" y="152" width="150" height="40" rx="6" fill="#0D1610" stroke="#2E5A3D"/><text x="716" y="177">P2 · unity tcp</text>
+<rect x="700" y="208" width="150" height="40" rx="6" fill="#0D1610" stroke="#2E5A3D"/><text x="716" y="233">P3 · webgl ws</text>
+<rect x="700" y="264" width="150" height="40" rx="6" fill="#0D1610" stroke="#2E5A3D"/><text x="716" y="289">P4 · webgl ws</text>
+</g>
+<g stroke="#2E5A3D" stroke-width="2" fill="none">
+<path d="M850 116 C 920 116 920 200 960 200"/><path d="M850 172 C 910 172 920 200 960 200"/>
+<path d="M850 228 C 910 228 920 200 960 200"/><path d="M850 284 C 920 284 920 200 960 200"/>
+</g>
+<circle class="pk" r="5" fill="#39F07F"><animateMotion dur="2.4s" repeatCount="indefinite" path="M850 116 C 920 116 920 200 960 200"/></circle>
+<circle class="pk" r="5" fill="#39F07F"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite" path="M850 284 C 920 284 920 200 960 200"/></circle>
+<rect x="960" y="150" width="190" height="100" rx="8" fill="none" stroke="#39F07F" stroke-width="2"/>
+<text x="984" y="192" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-weight="700" font-size="24" fill="#39F07F">relay</text>
+<text x="984" y="222" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-size="14" fill="#9CC4A8">room 4821 · live</text>
+<text x="56" y="380" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" font-size="14" fill="#6F9A7C">itsAayush2004 / arthis-land-relay</text>
+
+</g>
+</svg>
